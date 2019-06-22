@@ -1,0 +1,83 @@
+body {
+  background-image: url("ik.gif");
+}
+
+figure {
+    margin: 10px; /* adjust as needed */
+}
+figure img {
+	width: 20%;
+	margin: 10px auto 20px;
+    display: block;
+}
+figure figcaption {
+    text-align: center;
+}
+
+a:hover {
+  background-color: yellow;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:20%;
+  max-height:20%;
+}
+h1 {
+  color: black;
+  margin-left: 20px;
+  font-family: sans-serif;
+}
+
+h3 {
+	color: black;	
+	font-family: sans-serif;
+	font-size: 100%;
+	text-align: left;
+}
+
+profile {
+	text-align: left;
+}
+p {
+	color: red;
+	font-family: sans-serif;
+	font-size: 70%;
+}
+/*table {
+ border-collapse: collapse;
+ border: none;
+  width: 40%;
+}
+
+th, td {
+  text-align: left;
+  padding: 5px;
+}
+tr: nth-child(even) {
+	background-color: grey;
+}
+tr: nth-child(odd) {
+	background-color: yellow;
+}
+*/
+
+ table { 
+            border-collapse: collapse;
+			border: none;
+            width: 80%; 
+        } 
+          
+        th, td { 
+            text-align: left; 
+            padding: 5px; 
+        } 
+          
+        tr:nth-child(even) { 
+            background-color: pink; 
+        } 
+		tr:nth-child(odd) { 
+            background-color: lightblue; 
+        } 
